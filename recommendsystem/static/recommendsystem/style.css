@@ -1,0 +1,30 @@
+.mtop-15 {
+  margin-top: 15px;
+}
+.parent-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+.parent-div > div {
+  margin: 10px 10px;
+}
+.parent-div > div:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  cursor: pointer;
+  transform: scale(0.99);
+  transition: 0.5s;
+}
+.color-link {
+  color: #0d6efd;
+}
+.color-white:hover > a {
+  color: white;
+}
+
+.director {
+  font-size: 11px !important;
+}
